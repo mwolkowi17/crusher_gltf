@@ -21,3 +21,19 @@
     bottom: 25px;
     left: 180px;;
 }
+
+.progressContainer{
+    position: absolute;
+    width:100%;
+    height: 70px;
+    margin-top: 30%;
+    text-align: center;
+}
+    
+.progressInfo{
+       
+        top: 20px;
+        color: black;
+        visibility: visible;
+    
+}

@@ -6,6 +6,12 @@ export let mixer= new THREE.AnimationMixer();
 export let action;
 export let action2,action3,action4,action5,action6,action7;
 export const gltfLoader2 = new GLTFLoader()
+
+function Progress(){
+  console.log('loading');
+  const progressInfo=document.getElementsByClassName('progressInfo')[0];
+  progressInfo.style.visibility = 'visible';
+}
     //gltfLoader2.load('./zawor_kulowy_three_move3.glb', (gltf) => {
     gltfLoader2.load('./kruszarka_szczekowa1_wer15_scena3.gltf', (gltf) => {
       const root = gltf.scene;
@@ -23,6 +29,7 @@ export const gltfLoader2 = new GLTFLoader()
       action7 = mixer.clipAction(anim[8]);
      
       //action.play();
-
+      const progressInfo=document.getElementsByClassName('progressInfo')[0];
+      progressInfo.style.visibility = 'hidden';
      
-    })
+    },Progress());
