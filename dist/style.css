@@ -7,19 +7,19 @@
 #stop_button{
     position: absolute;
     bottom: 25px;
-    left: 380px;
+    left: 270px;
 }
 
 #reset_button{
     position: absolute;
     bottom: 25px;
-    left: 290px;
+    left: 180px;
 }
 
 #close_button{
     position: absolute;
     bottom: 25px;
-    left: 180px;;
+    left: 380px;;
 }
 
 .progressContainer{

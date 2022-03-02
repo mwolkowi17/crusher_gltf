@@ -67,6 +67,7 @@ closebutton.addEventListener("click", function(){
   closed=false;
   mixer.timeScale=1;
 }, false)
+closebutton.style.visibility='hidden';
 
     
 camera.position.z = 6;
@@ -93,7 +94,7 @@ const animate = function () {
   
     controls.update()
     if (mixer ) mixer.update( delta );
-    if (mixer.time>5 && closed===true){ 
+    if (mixer.time>15 && closed===true){ 
       mixer.timeScale=0;
      }
 
