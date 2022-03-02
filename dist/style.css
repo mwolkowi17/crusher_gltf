@@ -7,13 +7,13 @@
 #stop_button{
     position: absolute;
     bottom: 25px;
-    left: 340px;
+    left: 380px;
 }
 
 #reset_button{
     position: absolute;
     bottom: 25px;
-    left: 260px;
+    left: 290px;
 }
 
 #close_button{

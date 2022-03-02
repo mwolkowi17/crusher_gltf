@@ -2,7 +2,7 @@ import { GLTFLoader } from '../node_modules/three/examples/jsm/loaders/GLTFLoade
 import * as THREE from 'three';
 import * as OrbitControls from 'three-orbitcontrols';
 import { light2, light3, light4 } from './direct_light.js';
-import { mixer, action, gltfLoader2 } from './loader';
+import { mixer, action, action2, action3,action4,action5,action6,action7, gltfLoader2 } from './loader';
 
 export const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
@@ -34,6 +34,12 @@ actionbutton.addEventListener("click",function(){
   mixer.timeScale=1
   closed=true;
  action.play();
+ action2.play();
+ action3.play();
+ action4.play();
+ action5.play();
+ action6.play();
+ action7.play();
  
 },false)
 
