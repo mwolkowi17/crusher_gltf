@@ -94,7 +94,7 @@ const animate = function () {
   
     controls.update()
     if (mixer ) mixer.update( delta );
-    if (mixer.time>15 && closed===true){ 
+    if (mixer.time>30 && closed===true){ 
       mixer.timeScale=0;
      }
 
