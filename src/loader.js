@@ -4,7 +4,7 @@ import { scene } from './index.js';
 
 export let mixer= new THREE.AnimationMixer();
 export let action;
-export let action2,action3,action4,action5,action6,action7;
+export let action2,action3,action4,action5,action6,action7,action8,action9,action10,action11,action12,action13,action14,action15,action16,action17;
 export const gltfLoader2 = new GLTFLoader()
 
 function Progress(){
@@ -26,8 +26,19 @@ function Progress(){
       action4 = mixer.clipAction(anim[4]);
       action5 = mixer.clipAction(anim[5]);
       action6 = mixer.clipAction(anim[6]);
-      action7 = mixer.clipAction(anim[8]);
+      action7 = mixer.clipAction(anim[7]);
+      action8 = mixer.clipAction(anim[8]);
+      action9 = mixer.clipAction(anim[9]);
+      action10 = mixer.clipAction(anim[10]);
+      action11 = mixer.clipAction(anim[11]);
+      action12 = mixer.clipAction(anim[12]);
+      action13 = mixer.clipAction(anim[13]);
+      action14 = mixer.clipAction(anim[14]);
+      action15 = mixer.clipAction(anim[15]);
+      action16 = mixer.clipAction(anim[16]);
+      action17 = mixer.clipAction(anim[17]);
      
+      console.log(anim);
       //action.play();
       const progressInfo=document.getElementsByClassName('progressInfo')[0];
       progressInfo.style.visibility = 'hidden';
