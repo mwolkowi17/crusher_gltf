@@ -12,12 +12,12 @@ function Progress(){
   const progressInfo=document.getElementsByClassName('progressInfo')[0];
   progressInfo.style.visibility = 'visible';
 }
-    //gltfLoader2.load('./zawor_kulowy_three_move3.glb', (gltf) => {
+    
     gltfLoader2.load('./kruszarka_szczekowa1_wer15_scena3.gltf', (gltf) => {
       const root = gltf.scene;
       const anim = gltf.animations;
-      root.position.y=-2;
-      scene.add(root); //co zrobic z tym?
+      root.position.y=-1;
+      scene.add(root); 
       mixer = new THREE.AnimationMixer(root);
       
       action = mixer.clipAction( anim[ 0 ]);
