@@ -17,7 +17,7 @@ function Progress(){
       const root = gltf.scene;
       const anim = gltf.animations;
       root.position.y=-1;
-      scene.add(root); 
+      //scene.add(root); 
       mixer = new THREE.AnimationMixer(root);
       
       action = mixer.clipAction( anim[ 0 ]);

@@ -3,7 +3,7 @@ import * as THREE from 'three';
 import * as OrbitControls from 'three-orbitcontrols';
 import { light2, light3, light4 } from './direct_light.js';
 import { mixer, action, action2, action3,action4,action5,action6,action7,action8,action9,action10,action11,action12,action13,action14,action15,action16,action17, gltfLoader2 } from './loader';
-
+import {gltfLoader3} from './loader3'
 export const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 
